@@ -1,0 +1,50 @@
+.login {
+  padding-top: 80px;
+  height: 750px;
+  background-image: url(/img/3506328.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h3 {
+    text-align: center;
+    padding: 20px;
+  }
+  form {
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    button {
+      margin: 20px 0;
+    }
+  }
+}
+
+.formLogin {
+  margin: auto auto;
+  width: 400px;
+  height: 500px;
+}
+
+.SignUp {
+  background-image: url(/img/3506328.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .signUpPaper {
+    form {
+      width: 60%;
+      margin: 0 auto;
+      align-items: center;
+      button {
+        margin: 20px 0;
+      }
+    }
+    h3 {
+      text-align: center;
+      padding: 20px;
+    }
+    margin: auto auto;
+    width: 500px;
+    height: 730px;
+  }
+}

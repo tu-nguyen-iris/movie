@@ -1,0 +1,9 @@
+@import "./../../SASS/main.scss";
+
+.slidePhimDangChieu {
+  .cardsMovie {
+    @extend .cardsExtend;
+  }
+  margin-top: 20px;
+ 
+}

@@ -1,0 +1,43 @@
+.infoUser {
+  background-color: #4d4d41;
+  height: 50em;
+  position: relative;
+
+  img {
+    width: 50%;
+
+    margin-top: 90px;
+    margin-left: 25%;
+    border-radius: 80px;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.lichSuVe {
+  h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  button {
+    margin: 20px;
+    margin-bottom: 80px;
+  }
+  margin-top: 60px;
+}
+form {
+  p {
+    text-align: left;
+  }
+  button {
+    margin: 20px;
+  }
+}
+.userInfo {
+  color: white;
+  background-image: url(/img/2927262.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

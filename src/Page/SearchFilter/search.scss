@@ -1,0 +1,49 @@
+
+@import "./../../SASS/main.scss";
+
+.search {
+  .searchItem {
+    .filter {
+      h2 {
+        font-weight: 600;
+        margin: 15px auto;
+      }
+      li {
+        list-style: none;
+        margin-left: 30px;
+      }
+      @include mediaQuery("extra-large") {
+        display: none;
+      }
+    }
+
+    input {
+      margin-bottom: 10px;
+    }
+  }
+  margin-top: 70px;
+  .searchResult {
+    height: 1000px;
+    ul {
+      margin-left: 20px;
+      color: black;
+      li {
+        margin-bottom: 20px;
+        list-style: none;
+      }
+    }
+  }
+  .test {
+    margin-bottom: 20px;
+    display: flex;
+
+    img {
+      width: 10em;
+      height: 14em;
+      border-radius: 10px;
+    }
+  }
+}
+// .tesst{
+//   background-color: red;
+// }
